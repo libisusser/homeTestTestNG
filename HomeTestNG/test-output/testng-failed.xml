@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="BrowserName" value="firefox"/>
+  <test name="homeTestOnFirefox(failed)" parallel="tests">
+    <parameter name="BrowserName" value="firefox"/>
+    <classes>
+      <class name="TestCasesHomeTest.Test1">
+        <methods>
+          <include name="startsSession"/>
+          <include name="openBrowser"/>
+          <include name="startsSession"/>
+          <include name="openBrowser"/>
+          <include name="test01_homeTestFlow"/>
+          <include name="CloseSession"/>
+        </methods>
+      </class> <!-- TestCasesHomeTest.Test1 -->
+    </classes>
+  </test> <!-- homeTestOnFirefox(failed) -->
+  <test name="homeTestOnChrome(failed)" parallel="tests">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="TestCasesHomeTest.Test1">
+        <methods>
+          <include name="startsSession"/>
+          <include name="openBrowser"/>
+          <include name="startsSession"/>
+          <include name="openBrowser"/>
+          <include name="test01_homeTestFlow"/>
+          <include name="CloseSession"/>
+        </methods>
+      </class> <!-- TestCasesHomeTest.Test1 -->
+    </classes>
+  </test> <!-- homeTestOnChrome(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

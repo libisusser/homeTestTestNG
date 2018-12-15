@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Enviroment>
+
+
+
+<URL>https://trends.google.com</URL>
+
+<ChromeDriverPath>C://Automation/Selenium Driver/chromedriver.exe/</ChromeDriverPath>
+<FFDriverPath>C://Automation/Selenium Driver/geckodriver.exe/</FFDriverPath>
+
+<!--Report -->
+<ReportFilePath>C:/QA/Automation/Reports/</ReportFilePath>
+<ReportForMail>C:/QA/Automation/Reports/TestReport.html</ReportForMail>
+<ReportFileName>TestReport_</ReportFileName>
+<SSpath>C:/QA/Automation/Reports/</SSpath>
+</Enviroment>
+

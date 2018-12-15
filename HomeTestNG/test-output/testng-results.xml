@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="15628" started-at="2018-12-15T16:11:47Z" finished-at="2018-12-15T16:12:02Z">
+    <groups>
+    </groups>
+    <test name="homeTestOnFirefox" duration-ms="14249" started-at="2018-12-15T16:11:47Z" finished-at="2018-12-15T16:12:01Z">
+      <class name="TestCasesHomeTest.Test1">
+        <test-method status="PASS" signature="startsSession()[pri:0, instance:TestCasesHomeTest.Test1@72d818d1]" name="startsSession" is-config="true" duration-ms="511" started-at="2018-12-15T18:11:47Z" finished-at="2018-12-15T18:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startsSession -->
+        <test-method status="FAIL" signature="openBrowser(java.lang.String)[pri:0, instance:TestCasesHomeTest.Test1@72d818d1]" name="openBrowser" is-config="true" duration-ms="0" started-at="2018-12-15T18:11:47Z" finished-at="2018-12-15T18:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[newSession
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LIBI-PC', ip: '10.100.102.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44eff6 - <no info>
+   4:           0x4322e1 - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:         0x76e959cd - BaseThreadInitThunk]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: newSession
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LIBI-PC', ip: '10.100.102.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44eff6 - <no info>
+   4:           0x4322e1 - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:         0x76e959cd - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:104)
+	at TestCasesHomeTest.Test1.openBrowser(Test1.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="test01_homeTestFlow()[pri:0, instance:TestCasesHomeTest.Test1@72d818d1]" name="test01_homeTestFlow" duration-ms="2" started-at="2018-12-15T18:12:01Z" finished-at="2018-12-15T18:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_homeTestFlow -->
+        <test-method status="SKIP" signature="CloseSession()[pri:0, instance:TestCasesHomeTest.Test1@72d818d1]" name="CloseSession" is-config="true" duration-ms="0" started-at="2018-12-15T18:12:01Z" finished-at="2018-12-15T18:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseSession -->
+        <test-method status="SKIP" signature="doAfterTest()[pri:0, instance:TestCasesHomeTest.Test1@72d818d1]" name="doAfterTest" is-config="true" duration-ms="0" started-at="2018-12-15T18:12:01Z" finished-at="2018-12-15T18:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+      </class> <!-- TestCasesHomeTest.Test1 -->
+    </test> <!-- homeTestOnFirefox -->
+    <test name="homeTestOnChrome" duration-ms="15628" started-at="2018-12-15T16:11:47Z" finished-at="2018-12-15T16:12:02Z">
+      <class name="TestCasesHomeTest.Test1">
+        <test-method status="PASS" signature="startsSession()[pri:0, instance:TestCasesHomeTest.Test1@598067a5]" name="startsSession" is-config="true" duration-ms="512" started-at="2018-12-15T18:11:47Z" finished-at="2018-12-15T18:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startsSession -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:TestCasesHomeTest.Test1@598067a5]" name="openBrowser" is-config="true" duration-ms="13522" started-at="2018-12-15T18:11:47Z" finished-at="2018-12-15T18:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="test01_homeTestFlow()[pri:0, instance:TestCasesHomeTest.Test1@598067a5]" name="test01_homeTestFlow" duration-ms="1046" started-at="2018-12-15T18:12:01Z" finished-at="2018-12-15T18:12:02Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at UtilitesHomeTest.base.takeSS(base.java:145)
+	at UtilitesHomeTest.commonOps.clickOrChose(commonOps.java:55)
+	at TestCasesHomeTest.Test1.test01_homeTestFlow(Test1.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_homeTestFlow -->
+        <test-method status="FAIL" signature="CloseSession()[pri:0, instance:TestCasesHomeTest.Test1@598067a5]" name="CloseSession" is-config="true" duration-ms="0" started-at="2018-12-15T18:12:02Z" finished-at="2018-12-15T18:12:02Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at UtilitesHomeTest.base.CloseSession(base.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseSession -->
+        <test-method status="SKIP" signature="doAfterTest()[pri:0, instance:TestCasesHomeTest.Test1@598067a5]" name="doAfterTest" is-config="true" duration-ms="0" started-at="2018-12-15T18:12:02Z" finished-at="2018-12-15T18:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+      </class> <!-- TestCasesHomeTest.Test1 -->
+    </test> <!-- homeTestOnChrome -->
+  </suite> <!-- Suite1 -->
+</testng-results>

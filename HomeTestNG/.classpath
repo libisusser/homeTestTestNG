@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Automation/JAF1.1.1/javamail1_4_7/javamail-1.4.7/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/JAF1.1.1/jaf-1_1_1/jaf-1.1.1/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/junit-4.10.jar" sourcepath="C:/Users/libi/.m2/repository/junit/junit/4.10/junit-4.10-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/lib.reporting/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/NGwebdriver/ngwebdriver-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/client-combined-3.4.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/cssparser-0.9.22.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/htmlunit-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/htmlunit-core-js-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/htmlunit-driver-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/jetty-io-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/jetty-util-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/junit-4.12.jar" sourcepath="C:/Automation/Selenium Driver/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/neko-htmlunit-2.25.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/phantomjsdriver-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/websocket-api-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/websocket-client-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/websocket-common-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/Selenium Driver/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/sikulixsetup-1.1.1.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
